@@ -1,0 +1,53 @@
+Goodra @ Life Orb
+Ability: Gooey
+EVs: 252 HP / 252 SAtk / 4 SDef
+Modest Nature
+- Draco Meteor
+- Fire Blast
+- Sludge Bomb
+- Thunderbolt
+
+Aggron @ Aggronite
+Ability: Sturdy
+EVs: 252 HP / 252 Atk / 4 SDef
+Adamant Nature
+- Thunder Wave
+- Stealth Rock
+- Heavy Slam
+- Earthquake
+
+Florges @ Leftovers
+Ability: Flower Veil
+EVs: 252 HP / 252 Def / 4 SAtk
+Bold Nature
+- Wish
+- Aromatherapy
+- Protect
+- Moonblast
+
+Tornadus @ Life Orb
+Ability: Prankster
+EVs: 4 HP / 252 SAtk / 252 Spd
+Timid Nature
+- Extrasensory
+- Focus Blast
+- Dark Pulse
+- Air Slash
+
+Victini @ Life Orb
+Ability: Victory Star
+EVs: 252 Atk / 4 SDef / 252 Spd
+Jolly Nature
+- V-create
+- U-turn
+- Bolt Strike
+- Brick Break
+
+Tentacruel @ Leftovers
+Ability: Rain Dish
+EVs: 252 HP / 240 SDef / 16 Spd
+Calm Nature
+- Toxic Spikes
+- Aqua Ring
+- Confuse Ray
+- Rain Dance

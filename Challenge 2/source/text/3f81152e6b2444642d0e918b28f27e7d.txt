@@ -1,0 +1,21 @@
+Caused by: org.springframework.beans.factory.BeanCreationException:
+  Error creating bean with name 'service.MenuService#0'
+  defined in class path resource [spring-beans/integrator.xml]:
+  Could not resolve matching constructor (hint: specify index/type/name
+  arguments for simple parameters to avoid type ambiguities)
+	
+<bean class="service.MenuService">
+    <constructor-arg index="0" type="java.lang.String" value="#{user}"/>
+    <constructor-arg index="1" type="java.lang.String" value="#{password}"/>
+    <constructor-arg index="2" type="java.lang.String" value="#{uri}"/>
+    <property name="system" value="OPRT"/>
+    <property name="client" value="OPRT"/>
+</bean>
+	
+<bean class="service.MenuService" init-method="init">
+    <property name="login" value="#{user}"/>
+    <property name="password" value="#{password}"/>
+    <property name="httpsUrl" value="#{uri}"/>
+    <property name="system" value="OPRT" />
+    <property name="client" value="OPRT" />
+</bean>

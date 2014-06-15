@@ -1,0 +1,29 @@
+L0phtCrack Password Auditor Enterprise
+
+L0phtCrack is the award-winning password audit and recovery tool for Windows and Unix passwords. 
+
+Security experts from industry, government, and academia agree that weak passwords represent one of the ten most critical Internet security threats, and are receiving more attention as a source of vulnerability, both on client desktop computers and in networks. 
+
+L0phtCrack identifies and assesses password vulnerability over local machines and networks in a streamlined application, with built-in reports and remediation tools.
+
+System Requirements:
+
+Windows XP
+Windows Vista
+Windows 7
+Windows Server 2003
+Windows Server 2008
+Windows Server 2008 R2
+All Service Packs, 32-bit or 64-bit
+256MB of RAM
+30MB Hard drive space (more to use rainbow tables)
+                                     
+Homepage: http://www.l0phtcrack.com/
+
+Installation Instructions:
+
+- Install program.
+- Copy content from crack folder and paste into default installation directory.
+- Done, Enjoy.
+
+Thanks to...Team BRD

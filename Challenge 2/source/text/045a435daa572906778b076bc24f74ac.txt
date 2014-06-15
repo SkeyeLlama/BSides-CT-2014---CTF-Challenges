@@ -1,0 +1,13 @@
+open console ( ` or ~ )
+command: open mapname
+example:
+open train
+map list:
+testgameplay
+test1
+train
+example_map
+training_zone
+ampexample
+starter_map
+map1

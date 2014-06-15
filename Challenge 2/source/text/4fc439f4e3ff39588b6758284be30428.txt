@@ -1,0 +1,50 @@
+create table TOTAL_CLIENTE
+(id number(10),
+ valor number(17,2));
+ 
+ declare
+ cursor c_clientes
+ is
+ select id from TCLIENTES
+ where rownum < 1000;
+ 
+ cursor C_CONTRATOS(P_CLIENTE number) is
+ select TOTAL 
+ from TCONTRATOS
+ where TCLIENTES_ID=P_CLIENTE;
+ 
+ cursor C_EXISTE (P_CLIENTE number)
+ is
+ select 1 from TOTAL_CLIENTE
+ where id=P_CLIENTE;
+ V_EXISTE BINARY_INTEGER:=0;
+ 
+ 
+ begin
+ execute immediate 'alter session set tracefile_identifier=''INSTRUTOR'' ';
+ execute immediate 'alter session set sql_trace=true';
+ delete TOTAL_CLIENTE;
+ 
+ for R_CLIENTES in C_CLIENTES LOOP
+     for R_CONTRATOS in C_CONTRATOS(R_CLIENTES.id) loop
+
+     V_EXISTE:=0;
+     
+     open C_EXISTE(R_CLIENTES.id);
+     FETCH C_EXISTE
+     into V_EXISTE;
+     close C_EXISTE;
+
+     if V_EXISTE=1 then
+        update TOTAL_CLIENTE
+        set VALOR=VALOR+R_CONTRATOS.TOTAL
+        where id=r_clientes.id;
+     else
+        insert into TOTAL_CLIENTE values 
+        (R_CLIENTES.id,R_CONTRATOS.TOTAL);
+     end if;
+     commit;
+ end LOOP;
+ eND LOOP;
+ execute immediate 'alter session set sql_trace=false';
+ end;

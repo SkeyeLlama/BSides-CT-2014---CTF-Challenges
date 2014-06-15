@@ -1,0 +1,10 @@
+		$(document).ready(function(){
+			$('#contrast').click(function(){
+				$('.ingredienten').css('background-color', '#333');
+				$(this).html('Origineel');
+				$(this).attr('id','origineel');
+			});
+			$('.container').on("click", "#origineel", function(){				
+				$('.ingredienten').css('background-color', '#FFF');
+			});
+		});

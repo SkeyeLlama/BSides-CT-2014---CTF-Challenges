@@ -1,0 +1,7 @@
+deathleaper 130
+warriors 90
+10 hormagaunts 50
+10 hormagaunts 50
+mawloc 140
+5 genestealers 70
+5 genestealers 70

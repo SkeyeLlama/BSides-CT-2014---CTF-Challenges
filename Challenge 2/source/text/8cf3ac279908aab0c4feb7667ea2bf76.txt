@@ -1,0 +1,239 @@
+'-:*b-.@
+	
+'-:* pushes 45, duplicates it, then squares it, producing 2025
+b-   subtracts 11 from it, resulting in 2014
+.@   prints the result, then ends the program
+	
+for a in range(32,127):
+    for c in range(10,16):
+        if (a**2-c)==2014:
+            print("%s,%s"%(a,c))
+	
+for a in range(32,127):
+    for c in range(10,16):
+        if (a**2-c)==2014:
+            print("%s,%s"%(a,c))
+	
+'ߞ.@
+	
+"ߞ".@
+	
+cdd**e-.@
+	
+cdd pushes numbers to the stack so that it is this: 12,13,13
+**  multiplies top three values of stack, which is now: 2028
+e   pushes 14
+-   subtracts the top two values of the stack, resulting in: 2014
+.   prints the numerical value
+@   end of program
+	
+"*'&("#;:a`j@a+,;
+	
+print sum(ord(c) for c in 'Happy new year to you!')
+	
+p Time.new.year
+	
+Happy = Time
+Happy.new.year
+	
+Happy = Time
+class Time; alias year! year; end
+
+Happy.new.year!
+	
+class Have; def self.a; A.new; end; end
+class A; def happy; Time; end; end
+class Time; alias year! year; end
+
+Have.a.happy.new.year!
+	
+def noop x = nil; end
+alias a noop
+alias happy noop
+alias new noop
+alias year! noop
+def Have x
+    p Time.new.year
+end
+
+Have a happy new year!
+	
+def noop x = nil; end
+eval %w[we wish you a merry christmas! christmas and a happy new].map{|x|"alias #{x} noop"}*"n"
+def year!; p Time.new.year; end
+
+we wish you a merry christmas! we wish you a merry christmas!
+we wish you a merry christmas and a happy new year!
+	
++'ߞ'
+	
+def~{thecatcode`}~}~\~%bye
+	
+number`^^Tnumber`^^Nbye
+	
+number`ߞbye
+	
+print('''
+ _    _ _
+/   /    /| |   |
+  /  |   |  | |_ _|
+ /   |   |  |     |
+/_ _ _ _/ _|_    |''')
+	
+print int('bbc',ord("r"))
+	
+—
+	
+can't load package: package : 
+prog.go:1:1: illegal character U+2014 '—'
+	
+;#
+	
+testvc.cpp(1) : error C2014: preprocessor command must start as first nonwhite space
+	
+DiBBCp
+	
+$ dc <<< "DiBBCp"
+2014
+	
+x<-(T+T);x+floor(exp(pi)^x)*x*x-(x*x)^(x*x)/x
+	
+m=Math;p=m.pow;t=true;++t+m.floor(p(m.exp(m.PI),t))*t*t++-p(++t,t--)/--t
+	
++"Happy new year to you!".sum
+	
+'@'*' '-'"'
+	
+"{yz}"map(_-'I'toChar)
+	
+..--- ----- .---- ....-
+	
+main(){printf("%d",'A'*' '-'B');}
+	
+~ $ xxd -r > 2014.php
+0000000: 3c3f 3d7e cdcf cecb 3b                   <?=~....;
+~ $ php 2014.php
+2014
+	
+p 'bbc'.to_i ?r.ord
+	
+alert(atob("MjAxNA=="))
+	
+alert("MMXIV") // ;)
+	
+say~"ÍÏÎË"
+	
+$ hexcat ~/tmp/ten-stroke.pl
+73:61:79:7e:22:cd:cf:ce:cb:22
+$ perl -M5.010 ~/tmp/ten-stroke.pl
+2014
+	
+say'````'^RPQT
+	
+$ ~/tmp/fourteen-stroke.pl
+73:61:79:27:60:60:60:60:27:5e:52:50:51:54
+$ perl -M5.010 ~/tmp/fourteen-stroke.pl
+2014
+	
+say${$|}
+	
+$ hexcat 2014
+73:61:79:24:7b:24:7c:7d
+$ perl -M5.010 2014
+2014
+	
++"ߞ"[""]
+	
+"!="{*}*)
+	
+"?="##
+	
++'ߞ'
+	
+'-+,/'{)))))}%
+	
+...
++
+,
+-
+.
+/
+0
+1
+2
+3
+4
+...
+	
+⊃⎕TS
+	
+⎕TS
+2014 1 1 11 58 5 811
+      ⊃⎕TS
+2014
+	
+⎕UCS'ߞ'
+	
+'> '" * '^ - .
+	
+my_lst = []
+for i in range(33, 126):
+    for j in range(i, 126):
+        if 2014 - 126 < i * j < 2014 - 33:
+            if j not in range(48, 58):
+                my_lst.append("ord('" + unichr(i) +
+                              "')*ord('" + unichr(j) +
+                              "')+ord('" + unichr(2014 - i * j) + "')")
+
+for val in my_lst:
+    print val, '->', eval(val)
+	
+ord('!')*ord(':')+ord('d') -> 2014
+ord('!')*ord(';')+ord('C') -> 2014
+ord('!')*ord('<')+ord('"') -> 2014
+ord('"')*ord(':')+ord('*') -> 2014
+ord(')')*ord('/')+ord('W') -> 2014
+ord('*')*ord('-')+ord('|') -> 2014
+ord('*')*ord('.')+ord('R') -> 2014
+ord('*')*ord('/')+ord('(') -> 2014
+ord('+')*ord(',')+ord('z') -> 2014
+ord('+')*ord('-')+ord('O') -> 2014
+ord('+')*ord('.')+ord('$') -> 2014
+ord(',')*ord(',')+ord('N') -> 2014
+ord(',')*ord('-')+ord('"') -> 2014
+	
+>>> ord(u'ߞ')
+2014
+	
+from math import*
+a,b,c=int(e),round(e),ceil(pi);print int(a**(b*c-(c-b))-a*a**c-a)
+	
+print ord(',')*ord('-')+ord('"')
+	
+a=ord('.');print a*a-ord('f')
+	
+main(){printf("%o",' b'/'b');}
+	
+main(){printf("%x%o",' ','f');}
+	
+main(){printf("%x",' j'^'~');}
+	
+main(){printf("%d",'axde');}
+	
+0000000: 2714 0e27 7b7d 2f                        '..'{}/
+	
+JxQOJ3t9Lw==
+	
+0000000: 2713 6a27 7b2a 7d2a                      '.j'{*}*
+
+JxNqJ3sqfSo=
+	
+alert(btoa('ÛMx'))
+	
+atob('2014')
+	
+atob('2014')
+	
+Tr@ToCharacterCode@"ߞ"
+	
+a=⌊E⌋;b=⌈E⌉;c=⌈Pi⌉;a^(b*c-(c-b))-a*a^c-a

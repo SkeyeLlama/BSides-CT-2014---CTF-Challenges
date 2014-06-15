@@ -1,0 +1,113 @@
+              TEST: Dynamic update (Dyn)
+                 Test record dcdiag-test-record added successfully in zone cmedia.local
+                 Test record dcdiag-test-record deleted successfully in zone cmedia.local
+
+              TEST: Records registration (RReg)
+                 Network Adapter [00000010] Microsoft Hyper-V Network Adapter:
+                    Matching CNAME record found at DNS server 192.168.200.5:
+                    a29d12f1-2869-44bf-8e43-adf7ddf33865._msdcs.cmedia.local
+
+                    Matching A record found at DNS server 192.168.200.5:
+                    CM-DC1-HV-NYC01.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.cmedia.local
+
+                    Error:
+                    Missing SRV record at DNS server 192.168.200.5:
+                    _ldap._tcp.9a5f3c17-e7ac-48f7-ab42-bf1ea621a6f5.domains._msdcs.cmedia.local
+                    [Error details: 9003 (Type: Win32 - Description: DNS name does not exist.)]
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kerberos._tcp.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kerberos._tcp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kerberos._udp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kpasswd._tcp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kerberos._tcp.Default-First-Site-Name._sites.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _kerberos._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.gc._msdcs.cmedia.local
+
+                    Matching A record found at DNS server 192.168.200.5:
+                    gc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _gc._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.200.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.gc._msdcs.cmedia.local
+
+                    Matching CNAME record found at DNS server 192.168.20.5:
+                    a29d12f1-2869-44bf-8e43-adf7ddf33865._msdcs.cmedia.local
+
+                    Matching A record found at DNS server 192.168.20.5:
+                    CM-DC1-HV-NYC01.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.cmedia.local
+
+                    Error:
+                    Missing SRV record at DNS server 192.168.20.5:
+                    _ldap._tcp.9a5f3c17-e7ac-48f7-ab42-bf1ea621a6f5.domains._msdcs.cmedia.local
+                    [Error details: 9003 (Type: Win32 - Description: DNS name does not exist.)]
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kerberos._tcp.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kerberos._tcp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kerberos._udp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kpasswd._tcp.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kerberos._tcp.Default-First-Site-Name._sites.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _kerberos._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.gc._msdcs.cmedia.local
+
+                    Matching A record found at DNS server 192.168.20.5:
+                    gc._msdcs.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _gc._tcp.Default-First-Site-Name._sites.cmedia.local
+
+                    Matching  SRV record found at DNS server 192.168.20.5:
+                    _ldap._tcp.Default-First-Site-Name._sites.gc._msdcs.cmedia.local
+
+              Warning: Record Registrations not found in some network adapters
